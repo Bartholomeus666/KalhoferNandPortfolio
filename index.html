@@ -1,64 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nand Kalhofer - Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap"
-    rel="stylesheet"
-  />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <header class="site-header">
-    <a href="index.html" class="name">Nand Kalhofer</a>
+  <header class="navbar">
+    <div class="logo">Alex Morgan</div>
     <nav>
-      <a href="index.html" class="active">Work</a>
-      <a href="mailto:hello@nandkalhofer.com">Contact</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <main class="page">
+  <section id="projects" class="container">
+    <h2>Featured Projects</h2>
+    <div class="card-grid">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>Dynamic web application built with HTML & CSS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <div class="image">
+              <p>Interactive dashboard template for tracking daily tasks.</p>
+        </div>
+        <p>Interactive dashboard template for tracking daily tasks.</p>
+      </div>
+    </div>
+  </section>
 
-    <section class="intro">
-      <h1>I design and build products that are simple to use and hard to notice.</h1>
-      <p>
-        I'm a product designer/developer based in Ghent, focused on interfaces
-        that get out of the way. Selected work below.
-      </p>
-    </section>
-
-    <p class="section-label">Selected work</p>
-    <ul class="project-list">
-      <li>
-        <a href="project.html">
-          <span class="project-title">Rebuilding the checkout flow</span>
-          <span class="project-year">2025</span>
-        </a>
-      </li>
-      <li>
-        <a href="project.html">
-          <span class="project-title">A design system for a small team</span>
-          <span class="project-year">2024</span>
-        </a>
-      </li>
-      <li>
-        <a href="project.html">
-          <span class="project-title">Weeknight, a recipe planning app</span>
-          <span class="project-year">2023</span>
-        </a>
-      </li>
-    </ul>
-
-  </main>
-
-  <footer class="site-footer">
-    <p>&copy; 2026 Nand Kalhofer.</p>
-  </footer>
+  <section class="container">
+    <h2>Get In Touch</h2>
+    <a href="mailto:alex@example.com" class="btn">Send Email</a>
+  </section>
 
 </body>
-</html>
